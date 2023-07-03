@@ -28,3 +28,23 @@ body {
 #dark-toggle:checked ~ label div.toggle-circle {
   @apply translate-x-3;
 }
+
+.typing-text::after {
+  content: "|";
+  opacity: 1;
+  animation: blink-caret 0.75s step-end infinite;
+}
+
+@keyframes blink-caret {
+  from,
+  to {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+.typing-text.typing-complete::after {
+  display: none;
+}

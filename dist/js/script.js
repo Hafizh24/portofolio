@@ -60,3 +60,49 @@ if (
 } else {
   darkToggle.checked = false;
 }
+
+// animasi teks
+const typedText = "Full Stack Developer";
+const typingDelay = 100;
+const newTextDelay = 1500;
+
+let textIndex = 0;
+let isErasing = false;
+let typingTimeout;
+
+function type() {
+  const currentText = typedText.substring(0, textIndex);
+  document.querySelector(".typing-text").textContent = currentText;
+
+  if (!isErasing) {
+    if (textIndex < typedText.length) {
+      textIndex++;
+      typingTimeout = setTimeout(type, typingDelay);
+    } else {
+      setTimeout(() => {
+        isErasing = true;
+        clearTimeout(typingTimeout);
+        type();
+      }, newTextDelay);
+    }
+  } else {
+    isErasing = false;
+    clearTimeout(typingTimeout);
+    localStorage.setItem("animationShown", "true");
+    document.querySelector(".typing-text").classList.add("typing-complete");
+  }
+}
+
+// Menghapus nilai dari localStorage sebelum halaman direload
+window.addEventListener("beforeunload", function () {
+  localStorage.removeItem("animationShown");
+});
+
+// Cek apakah efek animasi sudah pernah ditampilkan sebelumnya
+const animationShown = localStorage.getItem("animationShown");
+
+if (!animationShown) {
+  type();
+} else {
+  document.querySelector(".typing-text").textContent = typedText;
+}
