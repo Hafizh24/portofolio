@@ -6,18 +6,15 @@
     <title>Hafizh Khairuddin</title>
     <link rel="icon" href="dist/img/e9252d53b8223a0ddeb0dd1c3e242825.png" />
     <link rel="stylesheet" href="dist/output.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" />
+    <!-- BootStrap Icon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" />
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <script>
-      if (
-        localStorage.theme === "dark" ||
-        (!("theme" in localStorage) &&
-          window.matchMedia("(prefers-color-scheme: dark)").matches)
-      ) {
-        document.documentElement.classList.add("dark");
+      if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+        document.documentElement.classList.add('dark')
       } else {
-        document.documentElement.classList.remove("dark");
+        document.documentElement.classList.remove('dark')
       }
     </script>
   </head>
@@ -27,21 +24,13 @@
       <div class="container">
         <div class="relative flex items-center justify-between">
           <div class="px-4">
-            <a href="#home" class="block py-6 text-lg font-bold uppercase text-primary"
-              >HafizhKh</a
-            >
+            <a href="#home" class="block py-6 text-lg font-bold uppercase text-primary">HafizhKh</a>
           </div>
           <div class="flex items-center px-4">
-            <button
-              id="hamburger"
-              name="hamburger"
-              type="button"
-              class="absolute right-4 block lg:hidden">
-              <span
-                class="hamburger-line origin-top-left transition duration-300 ease-in-out"></span>
+            <button id="hamburger" name="hamburger" type="button" class="absolute right-4 block lg:hidden">
+              <span class="hamburger-line origin-top-left transition duration-300 ease-in-out"></span>
               <span class="hamburger-line transition duration-300 ease-in-out"></span>
-              <span
-                class="hamburger-line origin-bottom-left transition duration-300 ease-in-out"></span>
+              <span class="hamburger-line origin-bottom-left transition duration-300 ease-in-out"></span>
             </button>
 
             <nav
@@ -49,73 +38,39 @@
               class="absolute right-4 top-full hidden w-full max-w-[250px] rounded-lg bg-white py-5 shadow-lg dark:bg-dark dark:shadow-slate-700 lg:static lg:block lg:max-w-full lg:rounded-none lg:bg-transparent lg:shadow-none lg:dark:bg-transparent">
               <ul class="block lg:flex">
                 <li class="group">
-                  <a
-                    href="#home"
-                    class="mx-8 flex py-2 text-base text-dark group-hover:text-primary dark:text-white"
-                    >Home</a
-                  >
+                  <a href="#home" class="mx-8 flex py-2 text-base text-dark group-hover:text-primary dark:text-white">Home</a>
                 </li>
                 <li class="group">
-                  <a
-                    href="#about"
-                    class="mx-8 flex py-2 text-base text-dark group-hover:text-primary dark:text-white"
-                    >About Me</a
-                  >
+                  <a href="#about" class="mx-8 flex py-2 text-base text-dark group-hover:text-primary dark:text-white">About Me</a>
                 </li>
                 <li class="group">
-                  <a
-                    href="#portofolio"
-                    class="mx-8 flex py-2 text-base text-dark group-hover:text-primary dark:text-white"
-                    >Portofolio</a
-                  >
+                  <a href="#portofolio" class="mx-8 flex py-2 text-base text-dark group-hover:text-primary dark:text-white">Portofolio</a>
                 </li>
                 <li class="group">
-                  <a
-                    href="#skills"
-                    class="mx-8 flex py-2 text-base text-dark group-hover:text-primary dark:text-white"
-                    >Skills</a
-                  >
+                  <a href="#skills" class="mx-8 flex py-2 text-base text-dark group-hover:text-primary dark:text-white">Skills</a>
                 </li>
                 <li class="group">
-                  <a
-                    href="#blog"
-                    class="mx-8 flex py-2 text-base text-dark group-hover:text-primary dark:text-white"
-                    >Blog</a
-                  >
+                  <a href="#blog" class="mx-8 flex py-2 text-base text-dark group-hover:text-primary dark:text-white">Blog</a>
                 </li>
                 <li class="group">
-                  <a
-                    href="#contact"
-                    class="mx-8 flex py-2 text-base text-dark group-hover:text-primary dark:text-white"
-                    >Contact</a
-                  >
+                  <a href="#contact" class="mx-8 flex py-2 text-base text-dark group-hover:text-primary dark:text-white">Contact</a>
                 </li>
                 <li class="mt-3 flex items-center pl-8 lg:mt-0">
                   <div class="flex">
                     <span class="mr-2 text-dark dark:text-secondary"
-                      ><svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        fill="currentColor"
-                        class="w-6"
-                        viewBox="0 0 16 16">
+                      ><svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="w-6" viewBox="0 0 16 16">
                         <path
                           d="M12 8a4 4 0 1 1-8 0 4 4 0 0 1 8 0zM8.5 2.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0zm0 11a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0zm5-5a.5.5 0 1 1 0-1 .5.5 0 0 1 0 1zm-11 0a.5.5 0 1 1 0-1 .5.5 0 0 1 0 1zm9.743-4.036a.5.5 0 1 1-.707-.707.5.5 0 0 1 .707.707zm-7.779 7.779a.5.5 0 1 1-.707-.707.5.5 0 0 1 .707.707zm7.072 0a.5.5 0 1 1 .707-.707.5.5 0 0 1-.707.707zM3.757 4.464a.5.5 0 1 1 .707-.707.5.5 0 0 1-.707.707z" />
                       </svg>
                     </span>
                     <input type="checkbox" class="hidden" id="dark-toggle" />
                     <label for="dark-toggle">
-                      <div
-                        class="flex h-5 w-9 cursor-pointer items-center rounded-full bg-slate-500 p-1">
-                        <div
-                          class="toggle-circle h-4 w-4 rounded-full bg-white transition duration-300 ease-in-out"></div>
+                      <div class="flex h-5 w-9 cursor-pointer items-center rounded-full bg-slate-500 p-1">
+                        <div class="toggle-circle h-4 w-4 rounded-full bg-white transition duration-300 ease-in-out"></div>
                       </div>
                     </label>
                     <span class="ml-2 text-sm text-secondary dark:text-white">
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        fill="currentColor"
-                        class="w-5"
-                        viewBox="0 0 16 16">
+                      <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="w-5" viewBox="0 0 16 16">
                         <path
                           d="M6 .278a.768.768 0 0 1 .08.858 7.208 7.208 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277.527 0 1.04-.055 1.533-.16a.787.787 0 0 1 .81.316.733.733 0 0 1-.031.893A8.349 8.349 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.752.752 0 0 1 6 .278z" />
                         <path
@@ -138,26 +93,16 @@
         <div class="flex flex-wrap">
           <div class="w-full self-center px-4 lg:w-1/2">
             <h1 class="text-base font-semibold text-primary md:text-xl lg:text-2xl">
-              Hello, I'm<span
-                class="mt-1 block text-4xl font-bold text-dark dark:text-white lg:text-5xl">
-                Hafizh Khairuddin</span
-              >
+              Hello, I'm<span class="mt-1 block text-4xl font-bold text-dark dark:text-white lg:text-5xl"> Hafizh Khairuddin</span>
             </h1>
-            <h2 class="typing-text mb-8 text-lg font-medium text-secondary lg:text-2xl">
-              Full Stack Developer
-            </h2>
+            <h2 class="typing-text mb-8 text-lg font-medium text-secondary lg:text-2xl">Full Stack Developer</h2>
 
             <a
               href="https://drive.google.com/file/d/1NLqFNyM2SGpUkzXh2ofacc37aGilx5eB/view?usp=share_link"
               target="_blank"
               class="flex w-fit items-center justify-center rounded-full bg-primary px-8 py-3 text-base font-semibold text-white transition duration-300 ease-in-out hover:opacity-80 hover:shadow-lg">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                fill="currentColor"
-                class="mr-2 w-6"
-                viewBox="0 0 16 16">
-                <path
-                  d="M8.5 6.5a.5.5 0 0 0-1 0v3.793L6.354 9.146a.5.5 0 1 0-.708.708l2 2a.5.5 0 0 0 .708 0l2-2a.5.5 0 0 0-.708-.708L8.5 10.293V6.5z" />
+              <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="mr-2 w-6" viewBox="0 0 16 16">
+                <path d="M8.5 6.5a.5.5 0 0 0-1 0v3.793L6.354 9.146a.5.5 0 1 0-.708.708l2 2a.5.5 0 0 0 .708 0l2-2a.5.5 0 0 0-.708-.708L8.5 10.293V6.5z" />
                 <path
                   d="M14 14V4.5L9.5 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2zM9.5 3A1.5 1.5 0 0 0 11 4.5h2V14a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h5.5v2z" />
               </svg>
@@ -166,16 +111,9 @@
           </div>
           <div class="w-full self-end px-4 lg:w-1/2">
             <div class="relative mt-10 lg:right-0 lg:mt-9">
-              <img
-                src="dist/img/hafizh.png"
-                alt="hafizh khairuddin"
-                class="relative z-10 mx-auto max-w-full" />
+              <img src="dist/img/hafizh.png" alt="hafizh khairuddin" class="relative z-10 mx-auto max-w-full" />
               <span class="absolute -bottom-0 left-1/2 -translate-x-1/2 md:scale-125">
-                <svg
-                  width="400"
-                  height="400"
-                  viewBox="0 0 200 200"
-                  xmlns="http://www.w3.org/2000/svg">
+                <svg width="400" height="400" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
                   <path
                     fill="#0891b2"
                     d="M57.1,-23.9C63.6,1.4,51.3,27.6,32.3,40.5C13.2,53.5,-12.7,53.2,-31.5,40.2C-50.4,27.3,-62.4,1.6,-56,-23.7C-49.5,-49,-24.8,-73.8,0.3,-73.9C25.3,-74,50.6,-49.3,57.1,-23.9Z"
@@ -195,31 +133,21 @@
         <div class="flex flex-wrap">
           <div class="mb-10 w-full px-4 lg:w-1/2">
             <h4 class="mb-3 text-lg font-bold uppercase text-primary">About Me</h4>
-            <p
-              class="mb-2 max-w-xl text-base font-semibold leading-relaxed text-secondary lg:text-lg">
-              Passionate Full-Stack Developer based in Bandung, Indonesia, with expertise in
-              JavaScript (Node.js), Golang, and ReactJS. I embarked my coding journey in
+            <p class="mb-2 max-w-xl text-base font-semibold leading-relaxed text-secondary lg:text-lg">
+              Passionate Full-Stack Developer based in Bandung, Indonesia, with expertise in JavaScript (Node.js), Golang, and ReactJS. I embarked my coding journey in
               December 2021.
             </p>
-            <p
-              class="mb-2 max-w-xl text-base font-semibold leading-relaxed text-secondary lg:text-lg">
-              Graduated from Binar Academy Full Stack Web Development bootcamp and completed
-              specialized training as a Golang backend developer at Studi DevSecOps.
+            <p class="mb-2 max-w-xl text-base font-semibold leading-relaxed text-secondary lg:text-lg">
+              Graduated from Binar Academy Full Stack Web Development bootcamp and completed specialized training as a Golang backend developer at Studi DevSecOps.
             </p>
-            <p
-              class="max-w-xl text-base font-semibold leading-relaxed text-secondary lg:text-lg">
-              Fast learner, constantly seeking new skills and technologies. Eager to contribute
-              to impactful projects and collaborate with dynamic teams.
+            <p class="max-w-xl text-base font-semibold leading-relaxed text-secondary lg:text-lg">
+              Fast learner, constantly seeking new skills and technologies. Eager to contribute to impactful projects and collaborate with dynamic teams.
             </p>
           </div>
           <div class="w-full px-4 lg:w-1/2">
-            <h3
-              class="mb-4 text-2xl font-semibold text-dark dark:text-white lg:pt-10 lg:text-3xl">
-              Let's get in touch
-            </h3>
+            <h3 class="mb-4 text-2xl font-semibold text-dark dark:text-white lg:pt-10 lg:text-3xl">Let's get in touch</h3>
             <p class="mb-6 text-base font-medium text-secondary lg:text-lg">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam consequatur odit
-              reprehenderit. Et quae corrupti animi optio modi?
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam consequatur odit reprehenderit. Et quae corrupti animi optio modi?
             </p>
             <div class="flex items-center">
               <!-- Linkedin -->
@@ -227,12 +155,7 @@
                 href="https://www.linkedin.com/in/hafizh-khairuddin-597650227/"
                 target="_blank"
                 class="mr-3 flex h-9 w-9 items-center justify-center rounded-full border border-slate-300 text-slate-300 hover:border-primary hover:bg-primary hover:text-white">
-                <svg
-                  role="img"
-                  width="20"
-                  class="fill-current"
-                  viewBox="0 0 24 24"
-                  xmlns="http://www.w3.org/2000/svg">
+                <svg role="img" width="20" class="fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                   <title>LinkedIn</title>
                   <path
                     d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" />
@@ -243,12 +166,7 @@
                 href="https://github.com/Hafizh24"
                 target="_blank"
                 class="mr-3 flex h-9 w-9 items-center justify-center rounded-full border border-slate-300 text-slate-300 hover:border-primary hover:bg-primary hover:text-white">
-                <svg
-                  width="20"
-                  class="fill-current"
-                  role="img"
-                  viewBox="0 0 24 24"
-                  xmlns="http://www.w3.org/2000/svg">
+                <svg width="20" class="fill-current" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                   <title>GitHub</title>
                   <path
                     d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12" />
@@ -267,27 +185,16 @@
         <div class="w-full px-4">
           <div class="mx-auto mb-16 max-w-xl text-center">
             <h4 class="mb-2 text-lg font-semibold text-primary">Portofolio</h4>
-            <h2 class="mb-4 text-3xl font-bold text-dark dark:text-white">
-              Featured Projects
-            </h2>
+            <h2 class="mb-4 text-3xl font-bold text-dark dark:text-white">Featured Projects</h2>
           </div>
         </div>
 
         <div class="flex flex-wrap justify-center px-4">
           <!-- Kedai Kopi -->
-          <div
-            class="mx-3 my-3 flex w-full flex-col justify-center rounded-xl bg-white p-4 shadow dark:bg-dark lg:w-1/2 xl:w-2/5">
-            <img
-              src="dist/img/portofolio/1.png"
-              alt="Landing Page"
-              class="rounded-lg drop-shadow" />
-            <h3 class="mb-3 mt-5 text-xl font-semibold text-dark dark:text-white">
-              Landing Page
-            </h3>
-            <p class="mb-3 text-base font-medium text-secondary">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloribus voluptates
-              ipsa tempore?
-            </p>
+          <div class="mx-3 my-3 flex w-full flex-col justify-center rounded-xl bg-white p-4 shadow dark:bg-dark lg:w-1/2 xl:w-2/5">
+            <img src="dist/img/portofolio/1.png" alt="Landing Page" class="rounded-lg drop-shadow" />
+            <h3 class="mb-3 mt-5 text-xl font-semibold text-dark dark:text-white">Landing Page</h3>
+            <p class="mb-3 text-base font-medium text-secondary">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloribus voluptates ipsa tempore?</p>
             <div class="flex justify-between">
               <div class="flex">
                 <img src="dist/img/tech/html5.svg" alt="HTML" class="mr-3 w-10 rounded" />
@@ -296,39 +203,56 @@
               </div>
               <div class="flex items-center">
                 <a href="" target="_blank" class="rounded-full p-2 hover:bg-secondary">
-                  <svg
-                    class="w-6 fill-current text-dark dark:text-white"
-                    viewBox="0 0 24 24"
-                    xmlns="http://www.w3.org/2000/svg">
+                  <svg class="w-6 fill-current text-dark dark:text-white" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                     <path
                       d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12" />
                   </svg>
                 </a>
                 <a href="" target="_blank" class="rounded-full p-2 hover:bg-secondary">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    class="w-5 fill-current text-dark dark:text-white"
-                    viewBox="0 0 16 16">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="w-5 fill-current text-dark dark:text-white" viewBox="0 0 16 16">
                     <path
                       fill-rule="evenodd"
                       d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5z" />
-                    <path
-                      fill-rule="evenodd"
-                      d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0v-5z" />
+                    <path fill-rule="evenodd" d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0v-5z" />
                   </svg>
                 </a>
               </div>
             </div>
           </div>
-          <!-- GPT3 -->
-          <div
-            class="mx-3 my-3 flex w-full flex-col justify-center rounded-xl bg-white p-4 shadow dark:bg-dark lg:w-1/2 xl:w-2/5">
+          <!-- Cash Here -->
+          <div class="mx-3 my-3 flex w-full flex-col justify-center rounded-xl bg-white p-4 shadow dark:bg-dark lg:w-1/2 xl:w-2/5">
             <img src="dist/img/portofolio/3.png" alt="GPT3" class="rounded-lg drop-shadow" />
-            <h3 class="mb-3 mt-5 text-xl font-semibold text-dark dark:text-white">GPT-3</h3>
-            <p class="mb-3 text-base font-medium text-secondary">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus minus suscipit
-              nam.
-            </p>
+            <h3 class="mb-3 mt-5 text-xl font-semibold text-dark dark:text-white">Cash Here</h3>
+            <p class="mb-3 text-base font-medium text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus minus suscipit nam.</p>
+            <div class="flex justify-between">
+              <div class="flex">
+                <img src="dist/img/tech/react.svg" alt="React" class="mr-3 w-10 rounded" />
+                <img src="./dist/img/tech/chakraui.svg" alt="Chakra" class="mr-3 w-9 rounded" />
+                <img src="dist/img/tech/javascript.svg" alt="JavaScript" class="w-8" />
+              </div>
+              <div class="flex items-center">
+                <a href="https://github.com/Hafizh24/Minpro-03-POS" target="_blank" class="rounded-full p-2 hover:bg-secondary">
+                  <svg class="w-6 fill-current text-dark dark:text-white" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12" />
+                  </svg>
+                </a>
+                <a href="#" target="_blank" class="rounded-full p-2 hover:bg-secondary">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="w-5 fill-current text-dark dark:text-white" viewBox="0 0 16 16">
+                    <path
+                      fill-rule="evenodd"
+                      d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5z" />
+                    <path fill-rule="evenodd" d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0v-5z" />
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- Gamers Heaven -->
+          <div class="mx-3 my-3 flex w-full flex-col justify-center rounded-xl bg-white p-4 shadow dark:bg-dark lg:w-1/2 xl:w-2/5">
+            <img src="dist/img/portofolio/2.png" alt="GPT3" class="rounded-lg drop-shadow" />
+            <h3 class="mb-3 mt-5 text-xl font-semibold text-dark dark:text-white">Gamers Heaven</h3>
+            <p class="mb-3 text-base font-medium text-secondary">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos, consequatur! Enim, nobis!</p>
             <div class="flex justify-between">
               <div class="flex">
                 <img src="dist/img/tech/html5.svg" alt="HTML" class="mr-3 w-10 rounded" />
@@ -337,28 +261,17 @@
               </div>
               <div class="flex items-center">
                 <a href="" target="_blank" class="rounded-full p-2 hover:bg-secondary">
-                  <svg
-                    class="w-6 fill-current text-dark dark:text-white"
-                    viewBox="0 0 24 24"
-                    xmlns="http://www.w3.org/2000/svg">
+                  <svg class="w-6 fill-current text-dark dark:text-white" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                     <path
                       d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12" />
                   </svg>
                 </a>
-                <a
-                  href="https://gpt3-vercel-five.vercel.app"
-                  target="_blank"
-                  class="rounded-full p-2 hover:bg-secondary">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    class="w-5 fill-current text-dark dark:text-white"
-                    viewBox="0 0 16 16">
+                <a href="#" target="_blank" class="rounded-full p-2 hover:bg-secondary">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="w-5 fill-current text-dark dark:text-white" viewBox="0 0 16 16">
                     <path
                       fill-rule="evenodd"
                       d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5z" />
-                    <path
-                      fill-rule="evenodd"
-                      d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0v-5z" />
+                    <path fill-rule="evenodd" d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0v-5z" />
                   </svg>
                 </a>
               </div>
@@ -374,9 +287,12 @@
       <div class="container">
         <div class="w-full px-4">
           <div class="mx-auto mb-16 max-w-xl text-center">
-            <h4 class="mb-2 text-lg font-semibold text-primary">Tech Stack</h4>
+            <h4 class="aos-init mb-2 text-lg font-semibold text-primary" data-aos="fade-up" data-aos-duration="1000">Tech Stack</h4>
             <h2
-              class="mb-4 text-3xl font-bold text-white dark:text-dark sm:text-4xl lg:text-5xl">
+              class="aos-init mb-4 text-3xl font-bold text-white dark:text-dark sm:text-4xl lg:text-5xl"
+              data-aos="fade-up"
+              data-aos-duration="1000"
+              data-aos-delay="100">
               What Skills I have
             </h2>
           </div>
@@ -385,42 +301,66 @@
         <div class="flex flex-wrap items-center justify-center px-4">
           <div
             title="JavaScript"
-            class="mx-4 flex w-1/3 flex-col items-center justify-center py-4 opacity-60 grayscale transition duration-500 hover:opacity-100 hover:grayscale-0 xl:w-1/5">
+            class="aos-init mx-4 flex w-1/3 flex-col items-center justify-center py-4 opacity-60 grayscale transition duration-500 hover:opacity-100 hover:grayscale-0 xl:w-1/5"
+            data-aos="fade-right"
+            data-aos-duration="1000"
+            data-aos-delay="100">
             <img class="w-24 xl:w-32" src="dist/img/tech/javascript.svg" alt="JavaScript" />
           </div>
           <div
             title="Tailwind CSS"
-            class="xl:w-154 mx-4 flex w-1/3 flex-col items-center justify-center py-4 opacity-60 grayscale transition duration-500 hover:opacity-100 hover:grayscale-0 xl:w-1/5">
+            class="xl:w-154 aos-init mx-4 flex w-1/3 flex-col items-center justify-center py-4 opacity-60 grayscale transition duration-500 hover:opacity-100 hover:grayscale-0 xl:w-1/5"
+            data-aos="fade-right"
+            data-aos-duration="1000"
+            data-aos-delay="100">
             <img class="w-24 xl:w-32" src="dist/img/tech/tailwind.svg" alt="Tailwind CSS" />
           </div>
           <div
             title="React"
-            class="mx-4 flex w-1/3 flex-col items-center justify-center py-4 opacity-60 grayscale transition duration-500 hover:opacity-100 hover:grayscale-0 lg:w-1/4 xl:w-1/5">
+            class="aos-init mx-4 flex w-1/3 flex-col items-center justify-center py-4 opacity-60 grayscale transition duration-500 hover:opacity-100 hover:grayscale-0 lg:w-1/4 xl:w-1/5"
+            data-aos="fade-right"
+            data-aos-duration="1000"
+            data-aos-delay="100">
             <img class="w-24 xl:w-32" src="dist/img/tech/react.svg" alt="React" />
           </div>
           <div
             title="Go"
-            class="xl:w-154 mx-4 flex w-1/3 flex-col items-center justify-center py-4 opacity-60 grayscale transition duration-500 hover:opacity-100 hover:grayscale-0 xl:w-1/5">
+            class="xl:w-154 aos-init mx-4 flex w-1/3 flex-col items-center justify-center py-4 opacity-60 grayscale transition duration-500 hover:opacity-100 hover:grayscale-0 xl:w-1/5"
+            data-aos="fade-right"
+            data-aos-duration="1000"
+            data-aos-delay="100">
             <img class="w-32 xl:w-40" src="dist/img/tech/go.svg" alt="Go" />
           </div>
           <div
             title="Nextjs"
-            class="mx-4 flex w-1/3 flex-col items-center justify-center py-4 opacity-60 grayscale transition duration-500 hover:opacity-100 hover:grayscale-0 xl:w-1/5">
+            class="aos-init mx-4 flex w-1/3 flex-col items-center justify-center py-4 opacity-60 grayscale transition duration-500 hover:opacity-100 hover:grayscale-0 xl:w-1/5"
+            data-aos="fade-right"
+            data-aos-duration="1000"
+            data-aos-delay="100">
             <img class="w-24 xl:w-32" src="dist/img/tech/nextjs.svg" alt="Nextjs" />
           </div>
           <div
             title="HTML"
-            class="xl:w-154 mx-4 flex w-1/3 flex-col items-center justify-center py-4 opacity-60 grayscale transition duration-500 hover:opacity-100 hover:grayscale-0 xl:w-1/5">
+            class="xl:w-154 aos-init mx-4 flex w-1/3 flex-col items-center justify-center py-4 opacity-60 grayscale transition duration-500 hover:opacity-100 hover:grayscale-0 xl:w-1/5"
+            data-aos="fade-right"
+            data-aos-duration="1000"
+            data-aos-delay="100">
             <img class="w-28 xl:w-36" src="dist/img/tech/html5.svg" alt="HTML" />
           </div>
           <div
             title="PostgeSQL"
-            class="mx-4 flex w-1/3 flex-col items-center justify-center py-4 opacity-60 grayscale transition duration-500 hover:opacity-100 hover:grayscale-0 xl:w-1/5">
+            class="aos-init mx-4 flex w-1/3 flex-col items-center justify-center py-4 opacity-60 grayscale transition duration-500 hover:opacity-100 hover:grayscale-0 xl:w-1/5"
+            data-aos="fade-right"
+            data-aos-duration="1000"
+            data-aos-delay="100">
             <img class="w-24 xl:w-32" src="dist/img/tech/postgresql.svg" alt="PostgeSQL" />
           </div>
           <div
             title="CSS"
-            class="xl:w-154 mx-4 flex w-1/3 flex-col items-center justify-center py-4 opacity-60 grayscale transition duration-500 hover:opacity-100 hover:grayscale-0 xl:w-1/5">
+            class="xl:w-154 aos-init mx-4 flex w-1/3 flex-col items-center justify-center py-4 opacity-60 grayscale transition duration-500 hover:opacity-100 hover:grayscale-0 xl:w-1/5"
+            data-aos="fade-right"
+            data-aos-duration="1000"
+            data-aos-delay="100">
             <img class="w-24 xl:w-32" src="dist/img/tech/css3.svg" alt="CSS" />
           </div>
         </div>
@@ -451,10 +391,7 @@
                     >Memahami Tipe Data di Golang</a
                   >
                 </h3>
-                <p class="mb-6 truncate text-base font-medium text-secondary">
-                  Tipe data adalah kategori nilai yang dapat dimiliki oleh suatu variabel atau
-                  ekspresi.
-                </p>
+                <p class="mb-6 truncate text-base font-medium text-secondary">Tipe data adalah kategori nilai yang dapat dimiliki oleh suatu variabel atau ekspresi.</p>
                 <a
                   href="https://medium.com/@hafizhcbs/memahami-tipe-data-di-golang-2bd2abececa3"
                   class="rounded-lg bg-primary px-4 py-2 text-sm font-medium text-white hover:opacity-80"
@@ -474,10 +411,7 @@
                     >Mengenal Struct di Golang</a
                   >
                 </h3>
-                <p class="mb-6 truncate text-base font-medium text-secondary">
-                  Golang tidak memiliki class seperti yang ada pada bahasa-bahasa strict OOP
-                  lain.
-                </p>
+                <p class="mb-6 truncate text-base font-medium text-secondary">Golang tidak memiliki class seperti yang ada pada bahasa-bahasa strict OOP lain.</p>
                 <a
                   href="https://medium.com/@hafizhcbs/mengenal-struct-di-golang-237c89077f57"
                   class="rounded-lg bg-primary px-4 py-2 text-sm font-medium text-white hover:opacity-80"
@@ -488,28 +422,16 @@
           </div>
           <div class="w-full px-4 lg:w-1/2 xl:w-1/3">
             <div class="mb-10 overflow-hidden rounded-xl bg-white shadow-lg dark:bg-slate-800">
-              <img
-                src="https://source.unsplash.com/360x200?coffee"
-                alt="Programming"
-                class="w-full" />
+              <img src="https://source.unsplash.com/360x200?coffee" alt="Programming" class="w-full" />
               <div class="px-6 py-8">
                 <h3>
-                  <a
-                    href="#"
-                    class="mb-3 block truncate text-xl font-semibold text-dark hover:text-primary dark:text-white"
-                    >Menikmati kopi</a
-                  >
+                  <a href="#" class="mb-3 block truncate text-xl font-semibold text-dark hover:text-primary dark:text-white">Menikmati kopi</a>
                 </h3>
                 <p class="mb-6 truncate text-base font-medium text-secondary">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor illo maxime
-                  sequi sit autem, ipsa beatae officiis, vero eius eaque praesentium
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor illo maxime sequi sit autem, ipsa beatae officiis, vero eius eaque praesentium
                   necessitatibus fuga excepturi architecto!
                 </p>
-                <a
-                  href="#"
-                  class="rounded-lg bg-primary px-4 py-2 text-sm font-medium text-white hover:opacity-80"
-                  >Baca Selengkapnya</a
-                >
+                <a href="#" class="rounded-lg bg-primary px-4 py-2 text-sm font-medium text-white hover:opacity-80">Baca Selengkapnya</a>
               </div>
             </div>
           </div>
@@ -557,9 +479,7 @@
                 class="w-full rounded-md bg-slate-200 p-3 text-dark focus:border-primary focus:outline-none focus:ring-1 focus:ring-primary"></textarea>
             </div>
             <div class="w-full px-4">
-              <button
-                type="submit"
-                class="rounded bg-primary px-4 py-3 text-base font-semibold text-white transition duration-500 hover:opacity-80 hover:shadow-lg">
+              <button type="submit" class="rounded bg-primary px-4 py-3 text-base font-semibold text-white transition duration-500 hover:opacity-80 hover:shadow-lg">
                 Send Message
               </button>
             </div>
@@ -576,13 +496,8 @@
           <div class="mb-12 w-full px-4 font-medium text-slate-300 md:w-1/3">
             <img src="dist/img/IMG_0065.PNG" alt="Logo" class="mb-6 h-40 w-40" />
             <p class="mb-2 flex items-center">
-              <span
-                class="mr-2 flex h-9 w-9 items-center justify-center rounded-full border border-slate-300 text-sky-400">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  class="fill-current"
-                  width="20"
-                  viewBox="0 0 16 16">
+              <span class="mr-2 flex h-9 w-9 items-center justify-center rounded-full border border-slate-300 text-sky-400">
+                <svg xmlns="http://www.w3.org/2000/svg" class="fill-current" width="20" viewBox="0 0 16 16">
                   <path
                     d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757Zm3.436-.586L16 11.801V4.697l-5.803 3.546Z" />
                 </svg>
@@ -590,40 +505,14 @@
               <span>hafizh.khairuddin@gmail.com</span>
             </p>
             <p class="flex items-center">
-              <span
-                class="mr-2 flex h-9 w-9 items-center justify-center rounded-full border border-slate-300 text-red-500">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  height="20"
-                  class="fill-current"
-                  viewBox="0 0 16 16">
-                  <path
-                    d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z" />
+              <span class="mr-2 flex h-9 w-9 items-center justify-center rounded-full border border-slate-300 text-red-500">
+                <svg xmlns="http://www.w3.org/2000/svg" height="20" class="fill-current" viewBox="0 0 16 16">
+                  <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z" />
                 </svg>
               </span>
               <span>Bandung, Indonesia</span>
             </p>
           </div>
-          <!-- <div class="mb-12 w-full px-4 md:w-1/3">
-            <h3 class="mb-5 text-xl font-semibold text-white">Kategori Tulisan</h3>
-            <ul class="text-slate-300">
-              <li>
-                <a href="#" class="mb-3 inline-block text-base hover:text-primary"
-                  >Programming</a
-                >
-              </li>
-              <li>
-                <a href="#" class="mb-3 inline-block text-base hover:text-primary"
-                  >Teknologi</a
-                >
-              </li>
-              <li>
-                <a href="#" class="mb-3 inline-block text-base hover:text-primary"
-                  >Gaya Hidup</a
-                >
-              </li>
-            </ul>
-          </div> -->
           <div class="mb-12 w-full px-4 md:w-1/3">
             <h3 class="mb-5 text-xl font-semibold text-white">Links</h3>
             <ul class="text-slate-300">
@@ -631,27 +520,19 @@
                 <a href="#home" class="mb-3 inline-block text-base hover:text-primary">Home</a>
               </li>
               <li>
-                <a href="#about" class="mb-3 inline-block text-base hover:text-primary"
-                  >About Me</a
-                >
+                <a href="#about" class="mb-3 inline-block text-base hover:text-primary">About Me</a>
               </li>
               <li>
-                <a href="#portofolio" class="mb-3 inline-block text-base hover:text-primary"
-                  >Portofolio</a
-                >
+                <a href="#portofolio" class="mb-3 inline-block text-base hover:text-primary">Portofolio</a>
               </li>
               <li>
-                <a href="#skills" class="mb-3 inline-block text-base hover:text-primary"
-                  >Skills</a
-                >
+                <a href="#skills" class="mb-3 inline-block text-base hover:text-primary">Skills</a>
               </li>
               <li>
                 <a href="#blog" class="mb-3 inline-block text-base hover:text-primary">Blog</a>
               </li>
               <li>
-                <a href="#contact" class="mb-3 inline-block text-base hover:text-primary"
-                  >Contact</a
-                >
+                <a href="#contact" class="mb-3 inline-block text-base hover:text-primary">Contact</a>
               </li>
             </ul>
           </div>
@@ -690,34 +571,29 @@
               </svg>
             </a>
           </div> -->
-          <p class="text-center text-sm font-medium text-slate-500">
-            © 2023 Hafizh Khairuddin. All rights reserved
-          </p>
+          <p class="text-center text-sm font-medium text-slate-500">© 2023 Hafizh Khairuddin. All rights reserved</p>
         </div>
       </div>
     </footer>
     <!-- Footer End -->
 
     <!-- Back to Top Start -->
-    <a
-      href="#home"
-      class="fixed bottom-4 right-4 z-[9999] hidden h-14 w-14 items-center justify-center rounded-full bg-primary p-4 hover:animate-pulse"
-      id="to-top">
+    <a href="#home" class="fixed bottom-4 right-4 z-[9999] hidden h-14 w-14 items-center justify-center rounded-full bg-primary p-4 hover:animate-pulse" id="to-top">
       <span class="block h-5 w-5 text-white">
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          fill="currentColor"
-          class="w-6"
-          viewBox="0 0 16 16">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="w-6" viewBox="0 0 16 16">
           <path d="M8 8c.828 0 1.5-.895 1.5-2S8.828 4 8 4s-1.5.895-1.5 2S7.172 8 8 8Z" />
           <path
             d="M11.953 8.81c-.195-3.388-.968-5.507-1.777-6.819C9.707 1.233 9.23.751 8.857.454a3.495 3.495 0 0 0-.463-.315A2.19 2.19 0 0 0 8.25.064.546.546 0 0 0 8 0a.549.549 0 0 0-.266.073 2.312 2.312 0 0 0-.142.08 3.67 3.67 0 0 0-.459.33c-.37.308-.844.803-1.31 1.57-.805 1.322-1.577 3.433-1.774 6.756l-1.497 1.826-.004.005A2.5 2.5 0 0 0 2 12.202V15.5a.5.5 0 0 0 .9.3l1.125-1.5c.166-.222.42-.4.752-.57.214-.108.414-.192.625-.281l.198-.084c.7.428 1.55.635 2.4.635.85 0 1.7-.207 2.4-.635.067.03.132.056.196.083.213.09.413.174.627.282.332.17.586.348.752.57l1.125 1.5a.5.5 0 0 0 .9-.3v-3.298a2.5 2.5 0 0 0-.548-1.562l-1.499-1.83ZM12 10.445v.055c0 .866-.284 1.585-.75 2.14.146.064.292.13.425.199.39.197.8.46 1.1.86L13 14v-1.798a1.5 1.5 0 0 0-.327-.935L12 10.445ZM4.75 12.64C4.284 12.085 4 11.366 4 10.5v-.054l-.673.82a1.5 1.5 0 0 0-.327.936V14l.225-.3c.3-.4.71-.664 1.1-.861.133-.068.279-.135.425-.199ZM8.009 1.073c.063.04.14.094.226.163.284.226.683.621 1.09 1.28C10.137 3.836 11 6.237 11 10.5c0 .858-.374 1.48-.943 1.893C9.517 12.786 8.781 13 8 13c-.781 0-1.517-.214-2.057-.607C5.373 11.979 5 11.358 5 10.5c0-4.182.86-6.586 1.677-7.928.409-.67.81-1.082 1.096-1.32.09-.076.17-.135.236-.18Z" />
-          <path
-            d="M9.479 14.361c-.48.093-.98.139-1.479.139-.5 0-.999-.046-1.479-.139L7.6 15.8a.5.5 0 0 0 .8 0l1.079-1.439Z" />
+          <path d="M9.479 14.361c-.48.093-.98.139-1.479.139-.5 0-.999-.046-1.479-.139L7.6 15.8a.5.5 0 0 0 .8 0l1.079-1.439Z" />
         </svg> </span
     ></a>
     <!-- Back to Top End -->
 
     <script src="dist/js/script.js"></script>
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init()
+    </script>
   </body>
 </html>
